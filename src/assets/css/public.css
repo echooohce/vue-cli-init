@@ -1,0 +1,285 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-size: 16px;
+    width: 100%;
+    font-family: Helvetica Neue, Lucida Grande, Microsoft YaHei, Arial, Liberation Sans, FreeSans, Hiragino Sans GB, sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+html {
+    overflow-y: scroll;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.valign {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+
+/* 英文字体 */
+
+.font-en {
+    font-family: Arial;
+}
+
+
+/* 中文字体 */
+
+.font-cn {
+    font-family: "Microsoft YaHei";
+}
+
+
+/* 文本能否被选择 */
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    -o-user-select: none;
+}
+
+
+/* 不滚动 */
+
+.no-scroll {
+    overflow: hidden;
+    text-align: left;
+}
+
+
+/* 首行缩进26px */
+
+.txt-indent {
+    text-indent: 26px;
+}
+
+
+/* 指针形状 */
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* 换行 */
+
+.wd-break {
+    word-wrap: word-break;
+    word-break: break-all;
+}
+
+
+/* 文本省略 */
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* IE, Safari (WebKit) */
+    -o-text-overflow: ellipsis;
+    /*Opera*/
+    overflow: hidden;
+}
+
+
+/* 不换行 */
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+/* 表格 */
+
+table,
+tr,
+td {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+
+/* 表单 */
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.theme_color {
+    color: #e1bf75;
+}
+
+.f_clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+a[title="站长统计"] {
+    display: none;
+}
